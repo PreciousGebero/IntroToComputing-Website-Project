@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Precious Hannah G. Gebero">
+  <meta name="description" content="Learn more about my skills in editing, photography, and filming. Discover her work and how to reach her for creative services.">
+  <meta name="keywords" content="Portfolio, editing, photography, filming, creative services, multimedia, content creation">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/letter-h.png">
+  <link rel="stylesheet" href="styles/styles.css"
+  link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="scripts/script.js" defer></script>
+  <title>About</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Hannah's Portfolio</h1>
+      </div>
+
+     <!-- Toggle icon for mobile (responsive) -->
+      <div class="menu-toggle" id="menu-toggle">
+        ☰
+      </div>
+
+      <!-- Nav list -->
+      <div class="nav-list" id="nav-list">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="profile.html">My Projects</a>
+      </div>
+
+      <div class="profile">
+        <svg width="80" height="80">
+          <defs>
+            <pattern id="imgPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                <image href="images/profile_pic.jpeg" x="0" y="0" width="100" height="100" />
+        
+            </pattern>
+          </defs>
+        
+          <circle cx="50" cy="50" r="30"
+                  fill="url(#imgPattern)" onclick="window.location.href='profile.html'" />
+        </svg>
+      </div>
+    </nav>
+  </header> 
+
+   <!--HTML GRAPHICS-->
+  <section>
+    <div class="about-content">
+        <h1>About Me</h1>
+
+        <div class="skillsContainer">
+          <h2>What I do?</h2>
+        <div class="skills">
+
+          <div>
+            <div class="skill-box" style="background:#bbdefb;">
+              <img src="images/laptop.png" alt="">
+            </div>
+            <h3>Editing</h3>
+          </div>
+
+          <div>
+            <div class="skill-box" style="background:#F0CFFA;">
+              <img src="images/camera.png" alt="">
+            </div>
+            <h3>Photography</h3>
+          </div>
+
+          <div>
+            <div class="skill-box" style="background:#FFECA1;">
+              <img src="images/clapperboard.png" alt="">
+            </div>
+            <h3>Filming</h3>
+          </div>
+
+        </div>
+
+        </div>
+    </div>
+  </section>
+
+
+  <!--HTML GRAPHICS:VIDEO-->
+  <section>
+      <div class="aboutContactUs">
+        <h1>Reach me out if I can offer <br> services to you!</h1>
+        <p>I can help you related to my skills above. Feel free <br> to contact me.</p>
+        <button onclick="window.location.href = 'contact.html'" class="reachOutBtn">Reach me out</button>
+      </div>
+      
+      <div class= "aboutVideo">
+        <video width="240" height="160" autoplay loop muted playsinline>
+          <source src="mp4/Contact Us.mp4" type="video/mp4">
+        </video>
+      </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <h3>Thank you for visiting us!</h3>
+      <p>All rights reserve @2025!</p>
+    </div>
+  </footer>
+</body>
+</html>

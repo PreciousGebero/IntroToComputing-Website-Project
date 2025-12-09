@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Precious Hannah G. Gebero">
+  <meta name="description" content="Watch Hannah’s video edits and creative projects, including award-winning music videos, promotional clips, and cinematic edits showcasing her editing skills.">
+  <meta name="keywords" content="Hannah Gebero, video editing, creative edits, music video edits, cinematic editing, promotional video editing, editing portfolio, award-winning edits">
+  <link rel="icon" type="image/x-icon" href="images/letter-h.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="scripts/script.js" defer></script>
+  <title>Filming</title>
+</head>
+
+<body>
+    <header>
+    <nav>
+      <div class="logo">
+        <h1>Hannah's Portfolio</h1>
+      </div>
+
+     <!-- Toggle icon for mobile (responsive) -->
+      <div class="menu-toggle" id="menu-toggle">
+        ☰
+      </div>
+
+      <!-- Nav list -->
+      <div class="nav-list" id="nav-list">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="profile.html">My Projects</a>
+      </div>
+
+      <div class="profile">
+        <svg width="80" height="80">
+          <defs>
+            <pattern id="imgPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                <image href="images/profile_pic.jpeg" x="0" y="0" width="100" height="100" />
+        
+            </pattern>
+          </defs>
+        
+          <circle cx="50" cy="50" r="30"
+                  fill="url(#imgPattern)" onclick="window.location.href='profile.html'" />
+        </svg>
+      </div>
+    </nav>
+  </header> 
+
+  <section>
+    <div class="text-center my-photo-section w-100">
+        <h1>“Editing is where chaos becomes clarity and vision becomes magic.”</h1>
+        <p>Edits by Hannah G.</p>
+      </div>
+  </section>
+
+  <div class="row justify-content-around align-items-start mt-5 py-lg-5 mx-lg-5 mb-lg-5 g-4">
+
+  <div class="col-lg-5 col-md-6 col-12">
+    <div class="bg-custom-light-blue rounded-3 p-4 h-100">
+      <video class="img-fluid rounded border border-3 border-dark w-100" controls>
+        <source src="mp4/mv.mp4" type="video/mp4">
+      </video>
+      <p class="fs-5 mt-3">This Music Video won as Best in Edit.</p>
+    </div>
+  </div>
+
+  <div class="col-lg-5 col-md-6 col-12">
+    <div class="bg-custom-light-blue rounded-3 p-4 h-100">
+      <video class="img-fluid rounded border border-3 border-dark w-100" controls>
+        <source src="mp4/edit1.mp4" type="video/mp4">
+      </video>
+      <p class="fs-5 mt-3">This is a Pre-camp video I edited way back 2024.</p>
+    </div>
+  </div>
+
+  <div class="col-lg-5 col-md-6 col-12">
+    <div class="bg-custom-light-blue rounded-3 p-4 h-100">
+      <video class="img-fluid rounded border border-3 border-dark w-100" controls>
+        <source src="mp4/edit2.mp4" type="video/mp4">
+      </video>
+      <p class="fs-5 mt-3">This is a Promotional video I edited for New Januiuay's Hinugyaw 2023.</p>
+    </div>
+  </div>
+
+  <div class="col-lg-5 col-md-6 col-12">
+    <div class="bg-custom-light-blue rounded-3 p-4 h-100">
+      <video class="img-fluid rounded border border-3 border-dark w-100" controls>
+        <source src="mp4/mv2.mp4" type="video/mp4">
+      </video>
+      <p class="fs-5 mt-3">A Music Video that people love.<br>Won as Best in MV.</p>
+    </div>
+  </div>
+
+</div>
+
+
+   <div class="d-flex justify-content-center mt-3 pb-5">
+      <a href="profile.html" class="btn btn-primary">Go Back</a>
+   </div>
+
+</body>

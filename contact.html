@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Precious Hannah G. Gebero">
+  <meta name="description" content="Get in touch with Hannah through the contact form. Send your inquiries, questions, or service requests related to editing, photography, and filming.">
+  <meta name="keywords" content="contact Hannah, contact form, photography services, editing services, filming services, reach out, inquiries, message Hannah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/letter-h.png">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/script.js" defer></script>
+  </script>
+  <title>Contact Me</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Hannah's Portfolio</h1>
+      </div>
+
+     <!-- Toggle icon for mobile (responsive) -->
+      <div class="menu-toggle" id="menu-toggle">
+        ☰
+      </div>
+
+      <div class="nav-list" id="nav-list">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact Me</a>
+        <a href="profile.html">My Projects</a>
+      </div>
+
+     <div class="profile">
+          <svg width="80" height="80">
+            <defs>
+              <pattern id="imgPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                  <image href="images/profile_pic.jpeg" x="0" y="0" width="100" height="100" />
+          
+              </pattern>
+            </defs>
+          
+            <circle cx="50" cy="50" r="30"
+                    fill="url(#imgPattern)" onclick="window.location.href='profile.html'" />
+          </svg>
+        </div>
+    </nav>
+  </header> 
+
+  <section>
+    <div class="contact-content">
+      <h1>Connect with me!</h1>
+      <p>Let me know your concern!</p>
+    </div>
+    <div class="form-content">
+      <div class="form">
+        <form action="success.html" method="post">
+          <h1>Contact Form</h1>
+
+          <div class="inputGroup">
+            <input type="text" name="Name" placeholder=" " required>
+            <label for="Name">Name</label>
+          </div>
+
+          <div class="inputGroup">
+            <input type="email" name="Email" placeholder=" " required>
+            <label for="Email">Email</label>
+          </div>
+
+          <div class="inputGroup">
+            <textarea name="Message" placeholder=" " required></textarea>
+            <label for="Message">Message</label>
+          </div>
+
+          <div class="toPosition">
+            <input type="submit" class="gamayAngSubmit" value="Submit">
+            <a href="contact.html" class="cancelBtn">Cancel</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+      <div class="footer">
+        <h3>Thank you for visiting us!</h3>
+        <p>All rights reserve @2025!</p>
+      </div>
+    </footer>
+</body>
+</html>

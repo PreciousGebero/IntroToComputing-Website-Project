@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Precious Hannah G. Gebero">
+  <meta name="description" content="Fully functional profile page with Bootstrap Framework. Explore Hannah's creative profile showcasing projects in editing, photography, and filming. Discover her skills, portfolio works, and artistic background.">
+  <meta name="keywords" content="Hannah Gebero, creative portfolio, editing projects, photography portfolio, filming projects, multimedia artist, creative works, visual arts, personal profile">
+  <link rel="icon" type="image/x-icon" href="images/letter-h.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="scripts/script.js" defer></script>
+  <title>Profile</title>
+</head>
+
+<body>
+    <header>
+    <nav>
+      <div class="logo">
+        <h1>Hannah's Portfolio</h1>
+      </div>
+
+     <!-- Toggle icon for mobile (responsive) -->
+      <div class="menu-toggle" id="menu-toggle">
+        ☰
+      </div>
+
+      <!-- Nav list -->
+      <div class="nav-list" id="nav-list">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="profile.html" class="active">My Projects</a>
+      </div>
+
+      <div class="profile">
+        <svg width="80" height="80">
+          <defs>
+            <pattern id="imgPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                <image href="images/profile_pic.jpeg" x="0" y="0" width="100" height="100" />
+        
+            </pattern>
+          </defs>
+        
+          <circle cx="50" cy="50" r="30"
+                  fill="url(#imgPattern)" onclick="window.location.href='profile.html'" />
+        </svg>
+      
+      </div>
+    </nav>
+  </header>
+<div class="row">
+  <div class="col text-center fs-1 fw-bolder text-uppercase">Get to know me!</div>
+</div>
+
+<!-- ABOUT SECTION -->
+<div class="row justify-content-center align-items-center mt-5 bg-custom-light-red py-5 px-4 px-md-5 mx-lg-5 rounded-2 mb-5">
+  <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+    <img src="images/photo_2025-10-04_07-05-35.jpg" class="img-fluid rounded border border-3 border-dark" alt="Profile Picture">
+  </div>
+
+  <div class="col-12 col-md-6 fs-5">
+    <p>Hello! I am Precious Hannah G. Gebero.</p>
+    <p>I have spent a lot of years creating beautiful cinematics of art.</p>
+    <p>My work is my testament to my creative vision and dedication to my craft.</p>
+    <p>My portfolio showcases a range of photos and videos that possess both creativity and talent — from raw clips and shots to eye-catching cinematic work.</p>
+    <p>Each project demonstrates my unique ability to balance form and creativity, resulting in visuals that are stunning and emotional.</p>
+  </div>
+</div>
+
+<!-- CARDS SECTION -->
+<div class="row justify-content-center mt-5 bg-custom-light-blue py-5 px-4 px-md-5 mx-lg-5 rounded-2 mb-5">
+  <div class="col-12 col-md-10">
+    <div class="row g-4">
+
+      <!-- Editing Card -->
+      <div class="col-12 col-md-4 d-flex">
+        <div class="card flex-fill text-center bg-custom-light-blue border-0 card-hover p-3">
+          <img src="images/laptop.png" class="card-img-top w-50 mx-auto" alt="Editing image">
+          <div class="card-body">
+            <h5 class="card-title">Editing</h5>
+            <p class="card-text">Editing has been one of my favorite hobbies. I like to turn ordinary moments into unforgettable masterpieces. ✨🎬</p>
+            <a href="editing.html" class="btn btn-primary">See Edits</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Photography Card -->
+      <div class="col-12 col-md-4 d-flex">
+        <div class="card flex-fill text-center bg-custom-light-blue border-0 card-hover p-3">
+          <img src="images/camera.png" class="card-img-top w-50 mx-auto" alt="Photography image">
+          <div class="card-body">
+            <h5 class="card-title">Photography</h5>
+            <p class="card-text">I love capturing skies, candid moments, and anything aesthetic. Life through the lens becomes extraordinary. ✨</p>
+            <a href="photography.html" class="btn btn-primary">See Pictures</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filming Card -->
+      <div class="col-12 col-md-4 d-flex">
+        <div class="card flex-fill text-center bg-custom-light-blue border-0 card-hover p-3">
+          <img src="images/clapperboard.png" class="card-img-top w-50 mx-auto" alt="Filming image">
+          <div class="card-body">
+            <h5 class="card-title">Filming</h5>
+            <p class="card-text">Filming is where magic happens. “Every shot counts, every scene speaks.” 🎬🌟</p>
+            <a href="filming.html" class="btn btn-primary">See Films</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+   
+   <footer>
+      <div class="footer">
+        <h3>Thank you for visiting us!</h3>
+        <p>All rights reserve @2025!</p>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body> 
+</html>
