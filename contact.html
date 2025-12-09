@@ -7,6 +7,7 @@
   <meta name="keywords" content="contact Hannah, contact form, photography services, editing services, filming services, reach out, inquiries, message Hannah">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="./images/letter-h.png">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/styles.css">
   <script src="./scripts/script.js" defer></script>
   </script>
@@ -47,39 +48,43 @@
     </nav>
   </header> 
 
-  <section>
-    <div class="contact-content">
-      <h1>Connect with me!</h1>
-      <p>Let me know your concern!</p>
-    </div>
-    <div class="form-content">
-      <div class="form">
+<section>
+  <div class="contact-content text-center">
+    <h1>Connect with me!</h1>
+    <p>Let me know your concern!</p>
+  </div>
+
+  <div class="form-content container d-flex justify-content-center px-3">
+    <div class="form w-100" style="max-width: 500px;">
       <form onsubmit="handleFormSubmit(event)">
-        <h1>Contact Form</h1>
+        <h1 class="text-center">Contact Form</h1>
 
         <div class="inputGroup">
-        <input type="text" name="Name" placeholder=" " required>
-        <label for="Name">Name</label>
+          <input type="text" name="Name" placeholder=" " required>
+          <label for="Name">Name</label>
         </div>
 
         <div class="inputGroup">
-        <input type="email" name="Email" placeholder=" " required>
-        <label for="Email">Email</label>
-          </div>
+          <input type="email" name="Email" placeholder=" " required>
+          <label for="Email">Email</label>
+        </div>
 
-          <div class="inputGroup">
-        <textarea name="Message" placeholder=" " required></textarea>
-        <label for="Message">Message</label>
-          </div>
+        <div class="inputGroup">
+          <textarea name="Message" placeholder=" " required></textarea>
+          <label for="Message">Message</label>
+        </div>
 
-          <div class="toPosition">
-        <button type="submit" class="gamayAngSubmit">Submit</button>
-        <a href="contact.html" class="cancelBtn">Cancel</a>
-          </div>
-        </form>
-      </div>
+        <div class="text-center">
+          <button type="submit" class="gamayAngSubmit">Submit</button>
+          <a href="contact.html" class="cancelBtn d-block mt-2">Cancel</a>
+        </div>
+
+      </form>
     </div>
-  </section>
+  </div>
+</section>
+
+
 
   <footer>
       <div class="footer">

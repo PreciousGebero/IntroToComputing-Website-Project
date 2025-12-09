@@ -456,10 +456,22 @@ section {
     padding: 20px !important;
     text-align: center;
 }
+.form {
+  width: 100%;
+  max-width: 450px;   
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 section .Welcome-texts,
 .contact-content,
-.form-content,
 .aboutContactUs,
 .aboutVideo {
     width: 100%;
@@ -471,10 +483,6 @@ section .Welcome-texts,
 .contact-content{
     margin-left: 50px;
 }
-.form-content{
-    margin-top: 20px;
-    margin-left: 55px;
-}
 
 section .Welcome-image img {
     width: 80%;
@@ -482,14 +490,18 @@ section .Welcome-image img {
     margin-top: 30px;
 }
 
-.form {
-    width: 100%;
-    max-width: 400px;
-}
-
 .inputGroup input,
 .inputGroup textarea {
-    width: 100%;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .toPosition {
@@ -497,13 +509,15 @@ section .Welcome-image img {
     flex-wrap: wrap;
 }
 
-.gamayAngSubmit,
-.cancelBtn {
-    width: 100%;
-    max-width: 150px;
+.gamayAngSubmit{
+    width: 94%;
     margin: 10px 5px;
     text-align: center;
 }
+.cancelBtn{
+     margin: 10px 5px;
+}
+
 
 .about-content {
     margin: 40px auto;
@@ -523,6 +537,10 @@ section .Welcome-image img {
 /* Skills adjustments */
 .about-content {
    margin-left: -24px;
+}
+.skillsContainer{
+    width: 100%;
+    margin: 10px 0 0 4px;
 }
 
 .skills {
