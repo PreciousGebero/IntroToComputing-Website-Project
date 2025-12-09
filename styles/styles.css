@@ -225,6 +225,7 @@ justify-content: right;
 .gamayAngSubmit {
 margin-top: 40px;
 padding: 14px 13px;
+width: 100%;
 border-radius: 6px;
 background-color: #00AA55;
 color: #fff;
@@ -243,7 +244,7 @@ background-color: #00aa5579;
 
 .cancelBtn {
 margin-top: 40px;
-margin-left: 10px;
+width: 100%;
 padding: 14px 13px;
 border-radius: 6px;
 background-color: #424242;
@@ -480,9 +481,6 @@ section .Welcome-texts,
     text-align: center;
 }
 
-.contact-content{
-    margin-left: 50px;
-}
 
 section .Welcome-image img {
     width: 80%;
