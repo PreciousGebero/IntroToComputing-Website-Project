@@ -40,3 +40,10 @@ const menuToggle = document.getElementById("menu-toggle");
 
     window.addEventListener("resize", cleanupCloseBtn);
     navList.addEventListener("transitionend", cleanupCloseBtn);
+ 
+    function handleFormSubmit(event) {
+        event.preventDefault();
+        
+        alert('Form submitted successfully!');
+        window.location.href = 'success.html'; 
+          }

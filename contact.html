@@ -54,27 +54,27 @@
     </div>
     <div class="form-content">
       <div class="form">
-        <form action="success.html" method="post">
-          <h1>Contact Form</h1>
+      <form onsubmit="handleFormSubmit(event)">
+        <h1>Contact Form</h1>
 
-          <div class="inputGroup">
-            <input type="text" name="Name" placeholder=" " required>
-            <label for="Name">Name</label>
+        <div class="inputGroup">
+        <input type="text" name="Name" placeholder=" " required>
+        <label for="Name">Name</label>
+        </div>
+
+        <div class="inputGroup">
+        <input type="email" name="Email" placeholder=" " required>
+        <label for="Email">Email</label>
           </div>
 
           <div class="inputGroup">
-            <input type="email" name="Email" placeholder=" " required>
-            <label for="Email">Email</label>
-          </div>
-
-          <div class="inputGroup">
-            <textarea name="Message" placeholder=" " required></textarea>
-            <label for="Message">Message</label>
+        <textarea name="Message" placeholder=" " required></textarea>
+        <label for="Message">Message</label>
           </div>
 
           <div class="toPosition">
-            <input type="submit" class="gamayAngSubmit" value="Submit">
-            <a href="contact.html" class="cancelBtn">Cancel</a>
+        <button type="submit" class="gamayAngSubmit">Submit</button>
+        <a href="contact.html" class="cancelBtn">Cancel</a>
           </div>
         </form>
       </div>
